@@ -1,12 +1,8 @@
 $(document).ready(startup());
 
 function startup(){
-  // console.log($('.modal'));
-  // $('.modal').modal('open');
-  // $('.modal-trigger').leanModal();
   $(".button-collapse").sideNav();
   $('#menu').on('click', '.orderButton', addToCart);
-  // $('#placeOrder').on('click', validate)
 }
 
 
